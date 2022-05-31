@@ -5,10 +5,9 @@
   
 <h2>Screenshots<h2>
 
-<img src="" alt="screenshot top">
-<img src="" alt="screenshot middle">
-<img src="" alt="screenshot bottom">
+<img src="./assets/pictures/screenshot1.jpeg" alt="screenshot top">
+<img src="./assets/pictures/screenshot2.jpeg" alt="screenshot bottom">
 
 <h2>Link</h2>
 
-<a href="https://dcontrer83.github.io/Portfolio/">Horiseon Webpage</a>
+<a href="https://dcontrer83.github.io/Portfolio/">Portfolio</a>
