@@ -1,6 +1,12 @@
+:root {
+    --dodgerblue: dodgerblue;
+    --gold: gold;
+    --lightgrey: rgb(118, 116, 116);
+}
 
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -55,16 +61,15 @@ main {
     display: flex;
     flex-direction: column;
 }
-/*article*/
+
 article {
     display: flex;
-    background-color: rgb(118, 116, 116);
+    background-color: var(--lightgrey);
 }
 
 h2 {
     flex: 20%;
     font-size: 2.6vw;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: underline;
     text-align: center;
     color: floralwhite;
@@ -80,10 +85,10 @@ p {
     margin-right: 10%;
     font-size: 1vw;
 }
-/*div*/
+
 .work-boxes {
     display: flex;
-    background-color:rgb(118, 116, 116);
+    background-color:var(--lightgrey);
 }
 
 .work-boxes content {
@@ -118,8 +123,8 @@ img:hover {
     border-style: solid;
     margin: 0;
     border-width: thick;
-    border-color: dodgerblue;
-    background-color: gold;
+    border-color: var(--dodgerblue);
+    background-color: var(--gold);
     bottom: 29%;
 }
 
@@ -135,8 +140,8 @@ img:hover {
     font-size: 18px;
     border-style: solid;
     border-width: thick;
-    border-color: dodgerblue;
-    background-color: gold;
+    border-color: var(--dodgerblue);
+    background-color: var(--gold);
     margin: 0;
     bottom: 23%;
 }
@@ -151,8 +156,8 @@ img:hover {
     font-size: 18px;
     border-style: solid;
     border-width: thick;
-    border-color: dodgerblue;
-    background-color: gold;
+    border-color: var(--dodgerblue);
+    background-color: var(--gold);
     bottom: 23%;
     left: 55%;
     margin: 0;
@@ -160,7 +165,7 @@ img:hover {
 
 footer {
     display: flex;
-    background-color: rgb(118, 116, 116);
+    background-color: var(--lightgrey);
 }
 
 footer content {
@@ -179,7 +184,7 @@ footer a {
     width: fit-content;
 }
 
-#github-email {
+#github {
     width: fit-content;
 }
 
