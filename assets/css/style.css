@@ -146,6 +146,27 @@ img:hover {
     bottom: 23%;
 }
 
+#roadtrip {
+    z-index: 1;
+    position: absolute;
+    font-size: 18px;
+    border-style: solid;
+    border-width: thick;
+    border-color: var(--dodgerblue);
+    background-color: var(--gold);
+    margin: 0;
+    bottom: 23%;
+}
+
+#roadtripImg {
+    height: 128.27%;
+    width: 45%;
+}
+
+#sectionThree {
+    padding-bottom: 9.118%;
+}
+
 #cpp-image {
     float: right;
 }
