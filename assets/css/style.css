@@ -155,12 +155,31 @@ img:hover {
     border-color: var(--dodgerblue);
     background-color: var(--gold);
     margin: 0;
-    bottom: 23%;
+    bottom: 37.6%;
+}
+
+#fatBirds {
+    z-index: 1;
+    position: absolute;
+    font-size: 18px;
+    border-style: solid;
+    border-width: thick;
+    border-color: var(--dodgerblue);
+    background-color: var(--gold);
+    margin: 0;
+    right: 28.5%;
+    bottom: 37.6%;
 }
 
 #roadtripImg {
-    height: 128.27%;
+    height: 93.14%;
     width: 45%;
+}
+
+#fatBirdsImg {
+    height: 93.14%;
+    width: 45%;
+    float: right;
 }
 
 #sectionThree {
